@@ -1,0 +1,11 @@
+services:
+  hugo:
+    container_name: "portfolio-hugo"
+    restart: unless-stopped
+    #image: hugomods/hugo:base-non-root
+    image: hugomods/hugo:std-dart-sass-non-root
+    command: server -D # d flag enables drafts
+    volumes:
+      - "./:/src"
+    ports:
+      - "1313:1313"
