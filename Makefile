@@ -37,7 +37,7 @@ logs:
 
 # Installs theme
 install-theme:
-		git clone $(VERSION) themes/$(THEME_NAME)
+		git clone $(THEME_REMOTE) themes/$(THEME_NAME)
 
 # Update theme
 update-theme:
