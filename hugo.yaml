@@ -1,6 +1,9 @@
 theme: nightfall
 languageCode: en-us
 baseURL: https://jonathankerk.com/
+
+enableEmoji: true
+
 params:
   user: hello
   hostname: jonathankerk.com
