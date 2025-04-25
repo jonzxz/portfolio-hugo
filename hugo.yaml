@@ -9,8 +9,8 @@ params:
   # Parameters for displaying published date time and reading time
   # Global parameters to disable them, or can be disabled in individual pages
   # For individual pages, if we are disabling both, use showMetadata = false instead.
-  published: false
-  readingTime: false
+  published: true
+  readingTime: true
 
   author:
     name: "Jonathan KERK"
@@ -49,7 +49,7 @@ menu:
     - name: "about"
       weight: 1
       url: "/about"
-    - name: "posts"
+    - name: "blogs"
       weight: 0
-      url: "/posts"
+      url: "/blogs/"
     
