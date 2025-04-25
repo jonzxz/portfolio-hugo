@@ -1,23 +1,19 @@
 theme: nightfall
 languageCode: en-us
 baseURL: https://jonathankerk.com/
-
 params:
   user: hello
   hostname: jonathankerk.com
-
   # Parameters for displaying published date time and reading time
   # Global parameters to disable them, or can be disabled in individual pages
   # For individual pages, if we are disabling both, use showMetadata = false instead.
   published: true
   readingTime: true
-
   author:
     name: "Jonathan KERK"
     email: "contact@jonathankerk.com"
     # TODO: Figure out what is this
     avatarFirst: false
-  
   social:
     - key: 0
       name: "linkedin"
@@ -36,12 +32,10 @@ params:
       url: "https://github.com/jonzxz"
       target: "_blank"
       aria: "GitHub Profile"
-  
   # Anchor colors
   # Use green,blue,red,orange; or any hex colors
   styles:
     color: "green"
-
 # Menu selectors
 # Higher weight represents left-most position
 menu:
@@ -52,4 +46,3 @@ menu:
     - name: "blogs"
       weight: 0
       url: "/blogs/"
-    

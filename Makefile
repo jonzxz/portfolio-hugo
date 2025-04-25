@@ -1,12 +1,24 @@
 .PHONY: default
 
 define HELP
-		make start
-		make stop
-		make restart
+COMMANDS
+		start - Starts the development environment using docker-compose
+		stop - Stops the development environment using docker-compose
+		restart - Restarts the development environment using docker-compose
+		logs - View the container logs of the development environment
+		install-theme - Git clones THEME_REMOTE into themes/ folder
+		update-theme - Replaces the current theme with THEME_NAME in hugo.yaml
 endef
 
 export HELP
+
+define THEME_REMOTE
+https://github.com/LordMathis/hugo-theme-nightfall
+endef
+
+define THEME_NAME
+nightfall
+endef
 
 default:
 		@echo "$$HELP"
@@ -23,7 +35,10 @@ restart:
 logs:
 		docker logs portfolio-hugo
 
-# Installs Nightly
-# Update config.toml: 'theme =  "nightfall"'
+# Installs theme
 install-theme:
-		git clone https://github.com/LordMathis/hugo-theme-nightfall themes/nightfall
+		git clone $(VERSION) themes/$(THEME_NAME)
+
+# Update theme
+update-theme:
+		yq e -i '.theme = "$(THEME_NAME)"' hugo.yaml
