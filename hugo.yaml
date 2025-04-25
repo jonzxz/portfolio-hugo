@@ -1,0 +1,55 @@
+theme: nightfall
+languageCode: en-us
+baseURL: https://jonathankerk.com/
+
+params:
+  user: hello
+  hostname: jonathankerk.com
+
+  # Parameters for displaying published date time and reading time
+  # Global parameters to disable them, or can be disabled in individual pages
+  # For individual pages, if we are disabling both, use showMetadata = false instead.
+  published: false
+  readingTime: false
+
+  author:
+    name: "Jonathan KERK"
+    email: "contact@jonathankerk.com"
+    # TODO: Figure out what is this
+    avatarFirst: false
+  
+  social:
+    - key: 0
+      name: "linkedin"
+      url: "https://linkedin.com/in/jonathan-kerk"
+      target: "_blank"
+      aria: "LinkedIn"
+    - key: 1
+      name: "email"
+      url: "mailto:contact@jonathankerk.com"
+    - key: 2
+      name: "resume"
+      # TODO: Update to real asset
+      url: "localhost:1313"
+    - key: 3
+      name: "github"
+      url: "https://github.com/jonzxz"
+      target: "_blank"
+      aria: "GitHub Profile"
+  
+  # Anchor colors
+  # Use green,blue,red,orange; or any hex colors
+  styles:
+    color: "green"
+
+# Menu selectors
+# Higher weight represents left-most position
+menu:
+  header:
+    - name: "about"
+      weight: 1
+      url: "/about"
+    - name: "posts"
+      weight: 0
+      url: "/posts"
+    
