@@ -28,4 +28,4 @@ I work primarily with technologies such as
 ---
 
 
-*P.S.* This is actually version 2 of my portfolio site hosted on TODO. For the original portfolio site written in React that I no longer maintain, head over to [old.jonathankerk.com](https://old.jonathankerk.com) to take a look!
+*P.S.* This is actually version 2 of my portfolio site hosted on [Cloudflare Pages](https://pages.cloudflare.com/). For the original portfolio site written in React that I no longer maintain, head over to [old.jonathankerk.com](https://old.jonathankerk.com) to take a look!

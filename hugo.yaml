@@ -28,8 +28,8 @@ params:
       url: "mailto:contact@jonathankerk.com"
     - key: 2
       name: "resume"
-      # TODO: Update to real asset
-      url: "localhost:1313"
+      url: "static/JonathanKerk.pdf"
+      target: "_blank"
     - key: 3
       name: "github"
       url: "https://github.com/jonzxz"
