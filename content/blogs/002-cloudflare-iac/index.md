@@ -7,7 +7,9 @@ showMetadata = true
 
 ![Terraforming with Cloudflare](../../blogs/002-cloudflare-iac/images/cloudflare-terraform.png)
 
-Hey there, hopefully it hasn't been too long! In my [last post](../../blogs/001-up-and-running/index), I ended the post with me discovering the Cloudflare Terraform Provider.
+Hey there, hopefully it hasn't been too long!
+
+In my [last post](../../blogs/001-up-and-running), I ended the post with me discovering the Cloudflare Terraform Provider.
 
 Cloudflare have always been a cool company to me - they make most of their stuff free (or at least with a generious free tier). I first started using Cloudflare awhile back when I bought my current domain.
 
