@@ -99,13 +99,11 @@ dns_records = {
   }
 }
 ```
-<br/>
 
 The outcome (I masked my public IP, although there's really not much reason to):
 
 ![Cloudflare DNS](images/cf-dns.png)
 
-<br/>
 
 Now that we have the DNS record for `retro.jonathankerk.com` resolvable:
 
